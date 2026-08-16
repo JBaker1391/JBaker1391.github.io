@@ -1,31 +1,26 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Julian Baker",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/JBaker1391.png",
+    "email": "juliangoggans@gmail.com",
+    "phone": "502-994-5480",
+    "website": "https://JBaker1391.github.io",
+    "summary": "I am studying for a A.S. in Computer Science in the Department of Information and Computer Sciences at Sullivan University. I expect to graduate in Fall, 2026.",
+    "location": { "address": "", "postalCode": "40299", "city": "Louisville", "countryCode": "USA", "region": "Kentucky" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "JBaker1391", "url": "http://github.com/JBaker1391" },
+      { "network": "X", "username": "CodeByBaker", "url": "http://X.com/CodeByBaker" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Video Game Development" },
+    { "name": "Software Engineering" },
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C#" ]
     },
     {
       "name": "Toolsets/OS",
