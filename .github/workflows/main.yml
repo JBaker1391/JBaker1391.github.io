@@ -25,9 +25,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-env:
-FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
   
 jobs:
   # Build job
@@ -48,11 +45,12 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
+        env:        
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+
 
   # Deployment job
   deploy:
