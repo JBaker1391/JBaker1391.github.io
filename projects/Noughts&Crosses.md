@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Noughts&CrossesLogo.jpg
 title: "Noughts & Crosses"
 date: 2026
 published: true
